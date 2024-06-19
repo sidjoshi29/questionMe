@@ -1,4 +1,4 @@
-# QuestionME: Advanced RAG Chatbot with LLM Integration
+# QuestionME: RAG Chatbot with LLM Integration
 
 QuestionME is an advanced chatbot designed to interact dynamically with any website, extracting and providing information using a Retrieval-Augmented Generation (RAG) algorithm. Leveraging the power of large language models like GPT-4, Llama2, and Ollama, this chatbot offers cutting-edge capabilities for a seamless user experience.
 
