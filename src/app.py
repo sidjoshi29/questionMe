@@ -24,16 +24,15 @@ def getVectorStorage(url):
     # get the text in document form
     loader = WebBaseLoader(url)
     documents = loader.load()
-    return documents
 
     # split the document into chunks
-    # text_splitter = RecursiveCharacterTextSplitter()
-    # document_chunks = text_splitter.split_documents(document)
+    text_splitter = RecursiveCharacterTextSplitter()
+    document_chunks = text_splitter.split_documents(documents)
 
     # create a vectorstore from the chunks
-    # vector_store = Chroma.from_documents(document_chunks, OpenAIEmbeddings())
+    vector_store = Chroma.from_documents(document_chunks, OpenAIEmbeddings())
     #
-    # return vector_store
+    return vector_store
 
 
 if "history" not in st.session_state:
