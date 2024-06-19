@@ -28,10 +28,6 @@ You can access the deployed app directly via the following link:
 3. Select your preferred language model from the dropdown menu.
 4. Type your questions in the chat input and interact with the website content.
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request or open an Issue.
-
 ## License
 
 This project is licensed under the MIT License. 
